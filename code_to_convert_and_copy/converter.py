@@ -3,7 +3,7 @@ from glob import glob
 import os
 from tqdm import tqdm
 
-dump_dir = 'FRCNN'
+dump_dir = 'TextBox++-Rotated-during-test'
 
 if not os.path.isdir('../'+dump_dir):
 	os.mkdir('../'+dump_dir)
