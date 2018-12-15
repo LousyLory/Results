@@ -23,7 +23,7 @@ if(is_dir($dir_path))
             if(in_array($extension, $extensions_array))
             {
             // show image
-            echo "<img src='$dir_path$files[$i]' style='width:100px;height:100px;'><br>";
+            //echo "<img src='$dir_path$files[$i]' style='width:100px;height:100px;'><br>";
             }
         }
     }
