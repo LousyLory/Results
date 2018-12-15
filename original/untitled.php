@@ -12,12 +12,12 @@ if(is_dir($dir_path))
         if($files[$i] !='.' && $files[$i] !='..')
         {
             // get file name
-            echo "File Name -> $files[$i]<br>";
+            #echo "File Name -> $files[$i]<br>";
             
             // get file extension
             $file = pathinfo($files[$i]);
             $extension = $file['extension'];
-            echo "File Extension-> $extension<br>";
+            #echo "File Extension-> $extension<br>";
             
            // check file extension
             if(in_array($extension, $extensions_array))
