@@ -4,7 +4,7 @@ import os
 from tqdm import tqdm
 import shutil
 
-dump_dir = 'TextBox++-Rotated-during-test'
+dump_dir = 'EAST_finetune_with_map_pretrained_ICDAR'
 
 if not os.path.isdir('../'+dump_dir):
 	os.mkdir('../'+dump_dir)
